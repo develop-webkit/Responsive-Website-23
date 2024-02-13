@@ -1,0 +1,31 @@
+.d-container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.d-row {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+}
+
+.d-w-100 {
+    width: 100%;
+}
+
+.d-w-50 {
+    width: 50%;
+}
+
+.d-w-45 {
+    width: 45%;
+}
+
+.d-w-55 {
+    width: 55%;
+}
+
+.d-pb-5 {
+    padding-bottom: 3rem;
+}

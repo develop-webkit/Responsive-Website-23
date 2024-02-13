@@ -1,0 +1,336 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	br {
+		display: none;
+	}
+}
+
+
+
+@media(max-width: 1500px) {
+
+	body,
+	html {
+		font-size: 15px;
+	}
+}
+
+
+
+@media(max-width: 1200px) {
+	.fish {
+		top: 30%;
+		right: calc(50% - 25rem);
+	}
+
+	.d-container {
+		max-width: 992px;
+	}
+
+	body,
+	html {
+		font-size: 14px;
+	}
+
+	.bg-head h1 {
+		font-size: 18rem;
+	}
+
+	.bg-head img {
+		right: calc(50% - 21rem);
+		top: 4%;
+	}
+}
+
+@media(max-width: 1100px) {
+	.favourite-slider {
+		padding-left: 5rem;
+	}
+
+}
+
+@media(max-width: 992px) {
+	.footer-sec {
+		background-position: 50% 0%;
+		padding-top: 12vw;
+	}
+
+	.footer-social {
+		margin-bottom: 0;
+	}
+
+	.fish {
+		right: calc(50% - 20rem);
+	}
+
+	.footer-sec {
+		margin-top: 10rem;
+	}
+
+	.worship-slide span {
+		font-size: 1.25rem;
+	}
+
+	.worship-slide p {
+		font-size: 1.25rem;
+		max-width: 46rem;
+	}
+
+	.worship-slide h1 {
+		font-size: 4rem;
+	}
+
+	.untern-slider2x .slick-next,
+	.untern-slider2x .slick-prev {
+		left: 0.5rem;
+	}
+
+	.untern-slider2x .slick-next {
+		left: initial;
+		right: 0.5rem;
+	}
+
+	.worship-slick {
+		padding-bottom: 8rem;
+		padding-top: 2rem;
+	}
+
+	.favourite-slider {
+		padding-left: 3rem;
+	}
+
+	.layer4 {
+		top: -12%;
+		right: calc(50% - 16rem);
+		width: 9rem;
+	}
+
+	.heading-col {
+		padding-bottom: 10rem;
+	}
+
+	.mice {
+		right: calc(50% - 30rem);
+		top: -31%;
+		width: 25rem;
+	}
+
+	.layer3 {
+		top: -11%;
+		left: calc(50% - 28rem);
+	}
+
+	.bg-head h1 {
+		font-size: 16rem;
+	}
+
+	.nav-listing {
+		gap: 1rem;
+	}
+
+	.d-container {
+		max-width: 767px;
+	}
+
+	.nav-listing li a {
+		padding: 0.25rem 1rem;
+	}
+
+	body,
+	html {
+		font-size: 13px;
+	}
+}
+
+@media(max-width: 767px) {
+	.fish {
+		right: 0;
+		width: 30%;
+	}
+
+	.footer-sec {
+		margin-top: 3rem;
+		background-position: 20% 0%;
+		padding-top: 20vw;
+	}
+
+	.footer-col {
+		flex-direction: column;
+		align-items: self-start;
+	}
+
+	.worship-slide h1 {
+		font-size: 3.5rem;
+	}
+
+	.mice4 {
+		width: 25%;
+		right: calc(50% - 15rem);
+	}
+
+	.worship-slide {
+		padding: 0 3rem;
+	}
+
+	.favourite-slider {
+		padding-left: 2rem;
+	}
+
+	.about-inner .d-w-55 {
+		width: 100%;
+	}
+
+	.about-inner .d-w-45 {
+		width: 100%;
+	}
+
+	.layer3 {
+		top: 3%;
+		left: calc(50% - 17rem);
+		width: 10rem;
+	}
+
+	.mice {
+		right: calc(50% - 20rem);
+		top: -21%;
+		width: 20rem;
+	}
+
+	.about-inner {
+		flex-direction: column;
+		padding-top: 11rem;
+		gap: 1rem;
+		text-align: center;
+	}
+
+	.bg-head img {
+		right: calc(50% - 16rem);
+		top: 3%;
+	}
+
+	.bg-head h1 {
+		font-size: 27vw;
+	}
+
+	.d-container {
+		max-width: 100%;
+	}
+
+	.nav-listing {
+		flex-direction: column;
+		gap: 1.5rem;
+		width: 100%;
+		background-color: #FFFAE8;
+		position: absolute;
+		left: 0;
+		top: 5rem;
+		padding: 1.25rem 0;
+		z-index: 99;
+	}
+	.menu-col{
+		display: none;
+		    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0rem;
+	}
+
+	.menu-inner {
+		display: block;
+	}
+}
+
+@media(max-width: 700px) {
+	.footer-sec {
+		margin-top: 2rem;
+		background-position: 100% 100%;
+		padding-top: 23vw;
+    background-size: 210% 100%;
+	}
+	.hamburger-btn{
+		margin-right: 1rem;
+	}
+}
+
+@media(max-width: 570px) {
+	.leave {
+		width: 50%;
+	}
+
+	.footer-sec {
+		margin-top: 1rem;
+		padding-top: 27vw;
+	}
+
+	.worship-slick {
+		padding-bottom: 3rem;
+		padding-top: 3rem;
+	}
+
+	.worship-slide h1 {
+		font-size: 2.5rem;
+	}
+
+	.bg-head h1 {
+		font-size: 25vw;
+	}
+
+	.bg-head {
+		padding: 8rem 0;
+	}
+
+	.bg-head img {
+		right: calc(50% - 12rem);
+		top: 2%;
+	}
+
+	.mice {
+		right: calc(50% - 15rem);
+		top: -14%;
+		width: 15rem;
+	}
+
+	.about-inner h2 {
+		font-size: 4rem;
+	}
+
+	.about-sec {
+		min-height: 30rem;
+	}
+
+	.about-inner {
+		padding-top: 9rem;
+	}
+
+	.favourite-content {
+		flex-direction: column;
+		gap: 2rem;
+		position: relative;
+		z-index: 9;
+	}
+
+	.layer4 {
+		top: -9%;
+		right: calc(50% - 13rem);
+		width: 7rem;
+	}
+
+	.favourite-slider {
+		padding-left: 1rem;
+	}
+}
